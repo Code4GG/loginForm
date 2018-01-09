@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Form</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+  	integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  	crossorigin="anonymous"></script>
+</head>
+<body>
+
+	<div class="title">Validating Login Form</div>
+
+	<div id="container">
+	
+	<form id="validationForm">
+
+		<label for="email">Email</label>
+		<input type="text" name="email" id="email">
+		<div id="errorEmail">Please enter a valid Email</div>
+
+		<label for="phone">Telephone</label>
+		<input type="text" name="phone" id="phone">
+		<div id="errorTele">Please enter a valid Telephone</div>
+
+		<label for="pass">Password</label>
+		<input type="password" name="pass" id="pass1">
+		<div class="errorPass">Please enter a valid Password</div>
+
+		<label for="pass">Confirm Password</label>
+		<input type="password" name="pass" id="pass2">
+		<div class="errorPass">Please enter a matching Password</div>
+
+		<input id="submitButton" type="submit" value="Submit">
+
+	</form>
+		
+	</div>
+	<script type="text/javascript" src="assets/javascript/login.js"></script>
+</body>
+</html>

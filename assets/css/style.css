@@ -1,0 +1,40 @@
+#container{
+	width: 600px;
+	margin: 0 auto;
+	font-family: helvetica;
+	font-size: 1.2em;
+}
+input{
+	border-radius: 5px;
+	padding: 7px;
+	width: 300px;
+	height: 30px;
+	font-size: 1.2em;
+	border: 1px solid grey;
+	margin-bottom: 10px; 
+}
+label{
+	width: 200px;
+	float: left;
+	padding-top: 10px;
+}
+#submitButton{
+	height: 50px;
+	background-color: royalblue;
+	color: white;
+	margin-left: 200px;
+	width: 150px;
+	border: 1px solid white;
+}
+#validationForm > div{
+	display: none;
+	color: red;
+	margin-left: 205px;
+	margin-bottom: 25px;
+}
+.title{
+	display: flex;
+	justify-content: center;
+	font-size: 35px;
+	padding: 40px;
+}
